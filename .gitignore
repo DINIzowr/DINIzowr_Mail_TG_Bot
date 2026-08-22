@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / runtime
+.env
+.env.*
+!.env.example
+client_secret.json
+client_secret*.json
+credentials*.json
+*.db
+*.sqlite3
+/data/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
